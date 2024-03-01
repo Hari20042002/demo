@@ -23,6 +23,5 @@ jobs:
         script: |
           scp -r app/* ubuntu@13.232.73.179:/var/www/html/app
 
-    env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+
 
