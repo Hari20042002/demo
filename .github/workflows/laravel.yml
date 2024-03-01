@@ -22,4 +22,4 @@ jobs:
           key: ${{ secrets.PROD_SERVER }}
           port: ${{ secrets.PORT }}
           script: |
-            scp -r app/* ubuntu@13.232.73.179:/var/www/html/app
+            scp -r app/* root@13.232.73.179:/var/www/html/app
