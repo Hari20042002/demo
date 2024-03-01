@@ -19,7 +19,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          key: ${{ secrets.PROD_SERVER }}
           port: ${{ secrets.PORT }}
           script: |
             scp -r app/* root@13.232.73.179:/var/www/html/app
